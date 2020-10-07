@@ -1,0 +1,34 @@
+name: Add tweak
+#Turn off vertical sync
+debug.hwui.disable_vsync=true
+hwui.disable_vsync=true
+name: add TouchX
+# Touch improve
+touch.pressure.scale=0.0001
+persist.sys.ui.hw=1
+view.scroll_friction=10
+touch.size.calibration=diameter
+touch.size.scale=1
+touch.size.bias=0
+touch.size.isSummed=0
+touch.orientation.calibration=none
+touch.distance.calibration=none
+touch.distance.scale=0
+touch.coverage.calibration=box
+touch.gestureMode=spots
+MultitouchMinDistance=1px
+MultitouchSettleInterval=1ms
+TapInterval=1ms
+TapSlop=1px
+
+#scrolling speed
+windowsmgr.max_events_per_sec=180
+ro.min_pointer_dur=8
+
+#Improve global touch screen response
+view.touch_slop=1
+view.scroll_friction=
+ro.max.fling_velocity=12000
+ro.min.fling_velocity=8000
+persist.sys.scrollingcache=3
+debug.sf.hw=1
